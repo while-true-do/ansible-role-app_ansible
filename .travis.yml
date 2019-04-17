@@ -19,7 +19,6 @@ before_script:
   # Use actual Ansible Galaxy role name for the project directory.
   - ln -s  $PWD ../while_true_do.app_ansible
   - cd ../while_true_do.app_ansible
-  - ansible-galaxy install -r requirements.yml
 
 script:
   # Do the tests.
