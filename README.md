@@ -12,7 +12,7 @@ license: BSD-3-Clause
 [![Github (issues)](https://img.shields.io/github/issues/while-true-do/ansible-role-app_ansible.svg)](https://github.com/while-true-do/ansible-role-app_ansible/issues)
 [![Github (pull requests)](https://img.shields.io/github/issues-pr/while-true-do/ansible-role-app_ansible.svg)](https://github.com/while-true-do/ansible-role-app_ansible/pulls)
 <!-- travis shields -->
-[![Travis (com)](https://img.shields.io/travis/com/while-true-do/ansible-role-app_ansible.svg)](ttps://travis-ci.com/while-true-do/ansible-role-app_ansible)
+[![Travis (com)](https://img.shields.io/travis/com/while-true-do/ansible-role-app_ansible.svg)](https://travis-ci.com/while-true-do/ansible-role-app_ansible)
 <!-- ansible shields -->
 [![Ansible (min. version)](https://img.shields.io/badge/dynamic/yaml.svg?label=Min.%20Ansible%20Version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fwhile-true-do%2Fansible-role-app_ansible%2Fmaster%2Fmeta%2Fmain.yml&query=%24.galaxy_info.min_ansible_version&colorB=black)](https://galaxy.ansible.com/while_true_do/app_ansible)
 [![Ansible (platforms)](https://img.shields.io/badge/dynamic/yaml.svg?label=Supported%20OS&url=https%3A%2F%2Fraw.githubusercontent.com%2Fwhile-true-do%2Fansible-role-app_ansible%2Fmaster%2Fmeta%2Fmain.yml&query=galaxy_info.platforms%5B*%5D.name&colorB=black)](https://galaxy.ansible.com/while_true_do/app_ansible)
