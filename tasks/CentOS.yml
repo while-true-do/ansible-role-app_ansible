@@ -1,0 +1,11 @@
+---
+# tasks file for while_true_do.app_ansible
+
+- name: Manage Ansible Packages
+  package:
+    name: "{{ wtd_app_ansible_packages }}"
+    state: "{{ wtd_app_ansible_packages_state }}"
+  become: yes
+  tags:
+    - package
+    - ansible
