@@ -6,7 +6,8 @@
 # license: BSD-3-Clause
 
 # from galaxy
-src: while_true_do.rpo_epel
+- src: while_true_do.rpo_epel
+  version: 1.0.0
 
 # from GitHub
 # - src: https://github.com/while-true-do/ansible-role-yum
