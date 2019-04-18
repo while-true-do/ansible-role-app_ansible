@@ -3,7 +3,7 @@
 galaxy_info:
   role_name: app_ansible
   author: while-true-do.io
-  description: An Ansible Role to install [Ansible](https://www.ansible.com/) from distribution packages.
+  description: An Ansible Role to install Ansible from distribution packages.
   license: BSD
 
   min_ansible_version: 2.7
