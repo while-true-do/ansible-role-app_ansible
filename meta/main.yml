@@ -3,8 +3,7 @@
 galaxy_info:
   role_name: app_ansible
   author: while-true-do.io
-  # TODO: Fill in a description and remove this line.
-  description: Description
+  description: An Ansible Role to install [Ansible](https://www.ansible.com/) from distribution packages.
   license: BSD
 
   min_ansible_version: 2.7
@@ -22,8 +21,9 @@ galaxy_info:
       versions:
         - 29
 
-  # TODO: Fill in proper tags and remove this line.
-  galaxy_tags: []
+  galaxy_tags:
+    - package
+    - ansible
 
 dependencies:
   - role: while_true_do.rpo_epel

@@ -38,18 +38,9 @@ Using distribution packages on CentOS requires to have the EPEL.
 
 Used Modules:
 
--   [Ansible Module Package](link)
--   [Ansible Module pip](link)
--   [Ansible Module ]
+-   [Ansible Module Package](https://docs.ansible.com/ansible/latest/modules/package_module.html)
 
 ## Installation
-
-<!-- TODO: Describe the Installation process.
-
--   How do you install the software/tool?
--   Is there a package, container or some other resources?
--   Are special commands needed to build/install/run?
--->
 
 Install from [Github](https://github.com/while-true-do/ansible-role-app_ansible)
 ```
