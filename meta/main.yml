@@ -24,6 +24,8 @@ galaxy_info:
   galaxy_tags:
     - package
     - ansible
+    - development
+    - system
 
 dependencies:
   - role: while_true_do.rpo_epel
