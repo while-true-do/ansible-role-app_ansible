@@ -3,9 +3,11 @@
 
 - name: Manage Ansible Packages
   package:
-    name: "{{ wtd_app_ansible_packages }}"
-    state: "{{ wtd_app_ansible_packages_state }}"
-  become: yes
+    name: "{{ wtd_app_ansible_package }}"
+    state: "{{ wtd_app_ansible_package_state }}"
+  become: true
   tags:
     - package
     - ansible
+    - development
+    - system

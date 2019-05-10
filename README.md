@@ -65,13 +65,10 @@ ansible-galaxy install -r requirements.yml
 ---
 # defaults file for while_true_do.app_ansible
 
-# Using dependencies to other roles (meta/main.yml)
-wtd_app_ansible_dep_mgmt: true
-
-wtd_app_ansible_packages:
+wtd_app_ansible_package:
   - ansible
 # State can be present|latest|absent
-wtd_app_ansible_packages_state: "present"
+wtd_app_ansible_package_state: "present"
 ```
 
 ### Example Playbook

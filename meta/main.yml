@@ -20,6 +20,7 @@ galaxy_info:
     - name: Fedora
       versions:
         - 29
+        - 30
 
   galaxy_tags:
     - package
@@ -32,4 +33,3 @@ dependencies:
     when:
       - ansible_distribution == "CentOS" or
         ansible_distribution == "RedHat"
-      - wtd_app_ansible_dep_mgmt
