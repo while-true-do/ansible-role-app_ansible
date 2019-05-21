@@ -2,4 +2,5 @@
 - name: Converge
   hosts: all
   roles:
+    - role: while_true_do.rpo_epel
     - role: while_true_do.app_ansible

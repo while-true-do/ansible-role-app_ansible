@@ -1,5 +1,6 @@
 ---
 # meta file for while_true_do.app_ansible
+
 galaxy_info:
   role_name: app_ansible
   author: while-true-do.io
@@ -11,7 +12,8 @@ galaxy_info:
   # Supported platforms: https://galaxy.ansible.com/api/v1/platforms/
   # Please also maintain
   # - molecule/default/molecule.yml
-  # - molecule/default/tests/test_default.py
+  # - molecule/default/tests/*
+  # - travis.yml
   platforms:
     - name: EL
       versions:
@@ -22,14 +24,13 @@ galaxy_info:
         - 29
         - 30
 
+  # Some very common tags are:
+  # system, virtualization, development, monitoring, packaging, container
+  # configuration, cloud, security
   galaxy_tags:
     - package
     - ansible
     - development
     - system
 
-dependencies:
-  - role: while_true_do.rpo_epel
-    when:
-      - ansible_distribution == "CentOS" or
-        ansible_distribution == "RedHat"
+dependencies: []

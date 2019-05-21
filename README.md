@@ -53,6 +53,10 @@ ansible-galaxy install while_true_do.app_ansible
 ```
 
 Dependencies:
+
+On CentOS, the Ansible Package is available from EPEL. You need to enable
+EPEL beforehand. An Ansible Role to enable EPEL is provided.
+
 ```
 ansible-galaxy install -r requirements.yml
 ```
@@ -84,6 +88,16 @@ can be done in a
 ---
 - hosts: all
   roles:
+    - role: while_true_do.app_ansible
+```
+
+#### With EPEL
+
+```
+---
+- hosts: all
+  roles:
+    - role: while_true_do.rpo_epel
     - role: while_true_do.app_ansible
 ```
 

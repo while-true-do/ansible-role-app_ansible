@@ -1,7 +1,8 @@
 ---
 # defaults file for while_true_do.app_ansible
 
-wtd_app_ansible_package:
-  - ansible
+## Package Management
+# https://docs.ansible.com/ansible/latest/modules/package_module.html
+wtd_app_ansible_package: "ansible"
 # State can be present|latest|absent
 wtd_app_ansible_package_state: "present"

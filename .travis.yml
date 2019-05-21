@@ -27,7 +27,6 @@ env:
       image: "fedora:30"
       pygroup: "python3"
 
-
 install:
   # Install test dependencies.
   - pip install ansible molecule[docker]
