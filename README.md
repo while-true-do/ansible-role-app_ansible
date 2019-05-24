@@ -38,7 +38,7 @@ Using distribution packages on CentOS requires to have the EPEL.
 
 Used Modules:
 
--   [Ansible Module Package](https://docs.ansible.com/ansible/latest/modules/package_module.html)
+-   [Ansible Package Module](https://docs.ansible.com/ansible/latest/modules/package_module.html)
 
 ## Installation
 
@@ -69,8 +69,9 @@ ansible-galaxy install -r requirements.yml
 ---
 # defaults file for while_true_do.app_ansible
 
-wtd_app_ansible_package:
-  - ansible
+## Package Management
+# https://docs.ansible.com/ansible/latest/modules/package_module.html
+wtd_app_ansible_package: "ansible"
 # State can be present|latest|absent
 wtd_app_ansible_package_state: "present"
 ```
